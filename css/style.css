@@ -1275,6 +1275,42 @@ body{
 	}
 }
 
+#loading22{
+	position: absolute;
+	top: 320px;
+	left:650px;
+	width: 70px;
+	height: 70px;
+    /*background-color: rgba(0,0,0,.5);*/
+    -webkit-animation:rotation22 1s linear infinite;
+}
+
+#loading22 .circle{
+	position: relative;
+	left:15px; top:15px;
+	width:40px;
+	height:40px;
+	border:1px solid #ffffff;
+	border-radius: 100%;
+
+}
+#loading22 .circlePic{
+	position: absolute;
+	top: 10px;left: 30px;
+	width:10px;
+	height:10px;
+	background: #ffffff;
+	border-radius: 100%;
+}
+/*loading22*/
+@-webkit-keyframes rotation22{
+	0%{
+		-webkit-transform:rotate(0deg);
+	}
+	100%{
+		-webkit-transform:rotate(360deg);
+	}
+}
 
 
 
